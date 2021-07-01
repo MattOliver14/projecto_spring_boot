@@ -1,0 +1,17 @@
+package io.github.mattoliver14.clientes.rest;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+
+@ControllerAdvice
+public class ApplicationControllerAdvice {
+	
+	@ExceptionHandler(MethodArgumentNotValidException.class)
+	public Object handleValidationErros(MethodArgumentNotValidException ex) {
+		
+	}
+
+}
