@@ -1,0 +1,5 @@
+package io.github.mattoliver14.clientes.rest.exception.ApiErrors;
+
+public class ApiErrors {
+
+}

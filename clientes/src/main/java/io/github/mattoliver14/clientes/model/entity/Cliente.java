@@ -12,7 +12,6 @@ import javax.validation.constraints.NotEmpty;
 import org.hibernate.validator.constraints.br.CPF;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.sun.istack.NotNull;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
